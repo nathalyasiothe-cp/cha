@@ -1,0 +1,33 @@
+#navbarToggleExternalContent {
+        position: fixed;
+        top: 56px; /* altura da navbar */
+        left: 0;
+        right: 0;
+        z-index: 1040;
+
+.navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; 
+            letter-spacing: 0.5px;
+        }
+      }
+
+.navbar-nav .nav-link {
+    color: #ffffff ;
+}
+
+  .card-principal {
+    max-height: 500px; /* Altere este valor (ex: 300px, 450px) para o tamanho que achar melhor */
+    overflow: hidden;  /* Garante que a imagem não morda as bordas do card */
+}
+
+.card-principal .card-img {
+    height: 500px;     /* Deve ser o mesmo valor que você colocou acima */
+    object-fit: cover; /* Recorta a imagem proporcionalmente para caber no espaço */
+}
+
+.img-combo {
+    height: 200px;      /* Reduz a altura da foto para não ocupar a tela toda */
+    object-fit: cover;  /* Recorta a imagem proporcionalmente sem distorcer ou achatar */
+}
+
